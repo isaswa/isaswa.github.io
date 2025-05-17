@@ -1,7 +1,7 @@
 # Dependencies
-markdown            : redcarpet
-redcarpet:
-  extensions        : ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
+markdown            : kramdown
+kramdown:
+  input: GFM
 highlighter         : pygments
 gems                : ["jekyll-paginate"]
 plugins             : [jekyll-paginate]
@@ -10,7 +10,7 @@ plugins             : [jekyll-paginate]
 permalink:        pretty
 
 # Setup
-title:            Isaswa's Tech Blog
+title:            シッコクのTech Blog
 tagline:          'シッコクのブログ'
 description:      'ソフトウェア開発、日常、アニメやゲームの考察や雑談などなど'
 url:              http://isaswa.github.io
