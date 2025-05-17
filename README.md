@@ -1,6 +1,6 @@
 # Isaswa's Tech Blog
 
-url: 
+url: https://isaswa.github.io/
 
 using [Hyde](https://github.com/poole/hyde)
 
