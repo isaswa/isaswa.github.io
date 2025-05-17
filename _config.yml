@@ -1,14 +1,18 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown            : redcarpet
+redcarpet:
+  extensions        : ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
+highlighter         : pygments
+gems                : ["jekyll-paginate"]
+plugins             : [jekyll-paginate]
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Isaswa's Blog
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Isaswa's Tech Blog
+tagline:          'シッコクのブログ'
+description:      'ソフトウェア開発、日常、アニメやゲームの考察や雑談などなど'
 url:              http://isaswa.github.io
 baseurl:          /
 
@@ -20,6 +24,7 @@ paginate:         5
 
 # Custom vars
 version:          2.1.0
-
 github:
   repo:           https://github.com/isaswa
+twitter_username    : isaswa1602
+github_username     : isaswa
